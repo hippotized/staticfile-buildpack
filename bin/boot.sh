@@ -12,6 +12,8 @@
 # and  limitations under the License.
 # ------------------------------------------------------------------------------------------------
 
+set -x
+
 export APP_ROOT=$HOME
 export LD_LIBRARY_PATH=$APP_ROOT/nginx/lib:$LD_LIBRARY_PATH
 
